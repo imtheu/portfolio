@@ -1,7 +1,7 @@
 <template>
 	<div class="hello" id="hello">
 		<page-header></page-header>
-		<div class="container clearfix" id="apresentacao">
+		<section class="container clearfix" id="apresentacao">
 			<div id="nomeDisplay" class="clearfix">
 				<h1 id="nome" class="float-left">Matheus<br>Francisco</h1>
 				<span id="bracket" class="float-right">}</span>
@@ -17,7 +17,7 @@
 					<span>computer science student</span>
 				</div>
 			</div>
-		</div>
+		</section>
 		<div id="transicao"></div>
 		<div style="background: #FAFAFA; width: 100%; height: 10px; margin-top: -5px;"></div>
 	</div>
