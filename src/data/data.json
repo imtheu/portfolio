@@ -1,0 +1,38 @@
+{
+	"Projects" : {
+		"0" : {
+			"Name" : "Doarei",
+			"Description" : "Doarei connects people who can donate and people who need something, enabling them to help themselves. I am co-founder and developer of this project that already has more than 100,000 page views and more than 2,000 users.",
+			"url" : "https://www.doarei.com.br",
+			"Tags" : {
+				"0" : "php",
+				"1" : "mysql",
+				"2" : "html",
+				"3" : "css",
+				"4" : "javascript",
+				"5" : "jquery",
+				"6" : "inkscape",
+				"7" : "seo"
+			},
+			"Imgs" : {
+				"0" : "doarei/doarei.png"
+			}
+		},
+		"1" : {
+			"Name" : "Cl7ck",
+			"Description": "Cl7ck is a small time management project designed to study and improve my skills with design patterns and frameworks. Cl7ck is simple and open source.",
+			"url" : "https://www.github.com/imtheu/cl7ck",
+			"Tags" : {
+				"0" : "php",
+				"1" : "codeigniter",
+				"2" : "mysql",
+				"3" : "html",
+				"4" : "css",
+				"5" : "bootstrap"
+			},
+			"Imgs" : {
+				"0" : "cl7ck/cl7ck.png"
+			}
+		}
+	}
+}

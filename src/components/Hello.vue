@@ -6,7 +6,7 @@
 				<h1 id="nome" class="float-left">Matheus<br>Francisco</h1>
 				<span id="bracket" class="float-right">}</span>
 			</div>
-			<span id="greeting">It's me, hello!</span>
+			<span id="greeting">It's me, hello! ;D</span>
 			
 			<div class="about">
 				<div class="about-1">
@@ -25,7 +25,6 @@
 
 <script>
 
-import json from '../data/teste.json'
 import pageHeader from './includes/Page-Header.vue'
 
 export default {
@@ -34,9 +33,6 @@ export default {
 		return {
 			nome: ''
 		}
-	},
-	created: function(){
-		this.nome = json.Teste.Nome;
 	},
 	components: {
 		pageHeader

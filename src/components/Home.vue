@@ -2,6 +2,12 @@
 	<div class="home">
 		<hello></hello>
 		<about></about>
+		<works></works>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</div>
 </template>
 
@@ -9,6 +15,7 @@
 
 import Hello from './Hello.vue'
 import About from './About.vue'
+import Works from './Works.vue'
 
 export default {
 	name: 'Home',
@@ -19,7 +26,8 @@ export default {
 	},
 	components: {
 		Hello,
-		About
+		About,
+		Works
 	}
 }
 </script>
