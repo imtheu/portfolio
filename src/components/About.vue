@@ -38,8 +38,8 @@
 </script>
 <style scoped>
 	#about{
-		height: 95vh;
 		position: relative;
+		padding-bottom: 50px;
 		border-bottom: 1px dashed #eee;
 	}
 	#about *{
@@ -80,6 +80,7 @@
 	#skills ul{
 		margin-top: 30px;
 		padding: 0;
+		display: block;
 	}
 
 	#skills ul li{

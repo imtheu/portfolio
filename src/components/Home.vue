@@ -3,11 +3,6 @@
 		<hello></hello>
 		<about></about>
 		<works></works>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 	</div>
 </template>
 

@@ -18,7 +18,7 @@
 		    		</div>
 		    	</div>
 		    	<div class="col-md-7">
-		    		<img :src="getImg(project.Imgs['0'])" :alt="project.Name" :title="project.Name">
+		    		<img class="img-fluid" :src="getImg(project.Imgs['0'])" :alt="project.Name" :title="project.Name">
 		    	</div>
 	  		</article>
 		</div>
@@ -98,5 +98,11 @@
 	article img{
 		width: 627px;
 		box-shadow: 0px 0px 50px rgba(33, 33, 33, 0.05);
+	}
+
+	@media all and (max-width: 770px){
+		article img{
+			margin-top: 20px;
+		}
 	}
 </style>
