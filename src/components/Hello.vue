@@ -29,11 +29,6 @@ import pageHeader from './includes/Page-Header.vue'
 
 export default {
 	name: 'Hello',
-	data () {
-		return {
-			nome: ''
-		}
-	},
 	components: {
 		pageHeader
 	}

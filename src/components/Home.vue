@@ -3,6 +3,8 @@
 		<hello></hello>
 		<about></about>
 		<works></works>
+		<contact></contact>
+		<page-footer></page-footer>
 	</div>
 </template>
 
@@ -11,6 +13,8 @@
 import Hello from './Hello.vue'
 import About from './About.vue'
 import Works from './Works.vue'
+import Contact from './Contact.vue'
+import PageFooter from './includes/Page-Footer.vue'
 
 export default {
 	name: 'Home',
@@ -22,7 +26,9 @@ export default {
 	components: {
 		Hello,
 		About,
-		Works
+		Works,
+		Contact,
+		PageFooter
 	}
 }
 </script>
