@@ -4,9 +4,9 @@
 			<h1>Works</h1>
 		</div>
 		<div class="container mt-5">
-			<article class="row" v-for="project in projects">
+			<article class="row" v-for="(project, index) in projects">
 				<div class="col-md-5">
-		    		<h1><a :href="project.url" target="_blank">{{ project.Name }}</a></h1>
+		    		<h1><router-link :to="'project/' + index">{{ project.Name }}</router-link></h1>
 		    		<p>{{ project.Description }}</p>
 		    		<ul class="tags">
 		    			<li v-for="tag in project.Tags">
@@ -14,6 +14,7 @@
 		    			</li>
 		    		</ul>
 		    		<div class="text-right">
+		    			<router-link :to="'project/' + index" class="btn btn-sm">More info +</router-link>
 		    			<a :href="project.url" target="_blank" class="btn btn-info btn-sm">Access ></a>
 		    		</div>
 		    	</div>

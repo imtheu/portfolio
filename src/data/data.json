@@ -3,6 +3,7 @@
 		"0" : {
 			"Name" : "Doarei",
 			"Description" : "Doarei connects people who can donate and people who need something, enabling them to help themselves. I am co-founder and developer of this project that already has more than 100,000 page views and more than 2,000 users.",
+			"Long_description" : "<a href='https://www.doarei.com.br'>Doarei</a> is a Brazilian site created in 2016 by me and Francielle Morais, with the purpose of helping people. I was responsible for all the development and graphic creation.",
 			"url" : "https://www.doarei.com.br",
 			"Tags" : {
 				"0" : "php",
@@ -15,12 +16,16 @@
 				"7" : "seo"
 			},
 			"Imgs" : {
-				"0" : "doarei/doarei.png"
+				"0" : "doarei/doarei.png",
+				"1" : "doarei/doareia.png",
+				"2" : "doarei/doareib.png",
+				"3" : "doarei/doareic.png"
 			}
 		},
 		"1" : {
 			"Name" : "Cl7ck",
 			"Description": "Cl7ck is a small time management project designed to study and improve my skills with design patterns and frameworks. Cl7ck is simple and open source.",
+			"Long_description" : "CL7CK was made with codeigniter and bootstrap. The source code is hosted on <a href='https://www.github.com/imtheu/cl7ck'>Github</a>",
 			"url" : "https://www.github.com/imtheu/cl7ck",
 			"Tags" : {
 				"0" : "php",

@@ -1,9 +1,9 @@
 <template>
 	<header class="page-header container">
 		<span class="middle-helper"></span>
-		<img src="../../assets/logo.svg" alt="Matheus Francisco" class="logo">
+		<router-link to="/"><img src="../../assets/logo.svg" alt="Matheus Francisco" class="logo"></router-link>
 		<!-- <span class="middle-helper"></span> -->
-		<mainMenu></mainMenu>
+		<span id="mainMenu"><mainMenu></mainMenu></span>
 		
 	</header>
 </template>
@@ -31,5 +31,22 @@
 	}
 	.logo{
 		vertical-align: middle;
+	}
+
+	.inner-page{
+		background: #212121;
+		min-width: 100%;
+	}
+	.inner-page{
+		height: 100px!important;
+		text-align: center;
+	}
+
+	.inner-page .logo{
+		width: 60px;
+	}
+
+	.inner-page #mainMenu{
+		display: none;
 	}
 </style>
